@@ -99,14 +99,14 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     @extend %sidebar-link-hover;
     
     font-family: 'Open Sans', sans-serif;
-    font-weight: 900;
+    font-weight: 400; // 더 가는 폰트 두께
     font-size: 1.75rem;
     line-height: 1.2;
     letter-spacing: 0.25px;
     margin-top: 1.25rem;
     margin-bottom: 0.5rem;
     width: fit-content;
-    color: #87CEEB; // 밝은 하늘색
+    color: #4682B4; // 진한 하늘색
   }
 
   .site-subtitle {
