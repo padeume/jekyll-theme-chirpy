@@ -97,8 +97,8 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   .site-title {
     @extend %clickable-transition;
     @extend %sidebar-link-hover;
-
-    font-family: inherit;
+    
+    font-family: 'Open Sans', sans-serif;
     font-weight: 900;
     font-size: 1.75rem;
     line-height: 1.2;
@@ -106,7 +106,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     margin-top: 1.25rem;
     margin-bottom: 0.5rem;
     width: fit-content;
-    color: var(--site-title-color);
+    color: #87CEEB; // 밝은 하늘색
   }
 
   .site-subtitle {
