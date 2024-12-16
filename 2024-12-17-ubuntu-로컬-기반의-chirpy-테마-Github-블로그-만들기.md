@@ -375,8 +375,6 @@ git add .
   
 
 고맙습니다.
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDAyMTExODRdfQ==
+eyJoaXN0b3J5IjpbMTU3MzU4MDkwMl19
 -->
