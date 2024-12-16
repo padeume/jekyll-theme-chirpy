@@ -1,8 +1,7 @@
 ---
 title: "ubuntu 로컬 기반의 chirpy 테마 Github 블로그 만들기"
 date: 2024-12-17 02:03:00 +0900
----
-# ubuntu 24.04 LTS를 로컬로 사용하는 chirpy 테마 Github 블로그 만들기 (배포용)
+---# ubuntu 24.04 LTS를 로컬로 사용하는 chirpy 테마 Github 블로그 만들기 (배포용)
 
 <p align="right"> with Chat GPT for 어설픈 초보 feat. vscode by folk </p>
 
@@ -49,7 +48,7 @@ ubuntu@ip-XXX-XX-X-XXX:~$ 이런 프롬프트를 확인하시면 됩니다.
 
 #### <span style="color:blue">sudo apt update</span>
 
-#### <span style="color:blue">sudo passwd root</span>
+#### <span style="color:blue">## ==sudo passwd root</span>
 
   
   
@@ -65,7 +64,7 @@ ubuntu@ip-XXX-XX-X-XXX:~$ 이런 프롬프트를 확인하시면 됩니다.
 
 # 2. chirpy 초기화를 위한 npm 설치
 
-#### ==sudo apt update && sudo apt upgrade -y==
+##sudo apt update && sudo apt upgrade -y==
 
 ----------
 
@@ -379,5 +378,5 @@ git add .
 
 고맙습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MzU4MDkwMl19
+eyJoaXN0b3J5IjpbNDE4OTk2Nzc5LDE1NzM1ODA5MDJdfQ==
 -->
