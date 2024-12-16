@@ -1,19 +1,3 @@
----
-title:  "ubuntu 로컬 기반의 chirpy 테마 Github 블로그 만들기"
-excerpt: "이 포스팅은 Ubuntu 24.04 LTS 환경에서 Chirpy 테마로 Github 블로그를 구축하는 방법을 초보자도 따라 할 수 있도록 작성되었습니다. VScode, npm, git, Github 등을 활용하며, remote 서버를 로컬처럼 사용하는 설정법을 안내합니다."
-
-categories:
-  - [Ubuntu]
-tags:
-  - [Ubuntu, ChirpyTheme, GithubPages, RemoteServer, VSCode]
-
-toc: true
-toc_sticky: true
-
-date: 2024-12-17
-last_modified_at: 2024-12-17
-
----
 # ubuntu 24.04 LTS를 로컬로 사용하는 chirpy 테마 Github 블로그 만들기 (배포용)
 
 <p align="right"> with Chat GPT for 어설픈 초보 feat. vscode by folk </p>
@@ -391,5 +375,5 @@ git add .
 
 고맙습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NjE5Nzc0M119
+eyJoaXN0b3J5IjpbMjAxNjIyNzA2MywtNzQ2MTk3NzQzXX0=
 -->
