@@ -12,6 +12,7 @@ toc_sticky: true
 
 date: 2024-12-17
 last_modified_at: 2024-12-17
+
 ---
 # ubuntu 24.04 LTS를 로컬로 사용하는 chirpy 테마 Github 블로그 만들기 (배포용)
 
@@ -390,5 +391,6 @@ git add .
 
 고맙습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4OTk2Nzc5LDE1NzM1ODA5MDJdfQ==
+eyJoaXN0b3J5IjpbLTc0NjE5Nzc0Myw0MTg5OTY3NzksMTU3Mz
+U4MDkwMl19
 -->
