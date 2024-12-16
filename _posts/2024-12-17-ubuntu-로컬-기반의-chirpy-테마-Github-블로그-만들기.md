@@ -1,3 +1,7 @@
+---
+title: "ubuntu 로컬 기반의 chirpy 테마 Github 블로그 만들기기"
+date: 2024-12-17 02:03:00 +0900
+---
 # ubuntu 24.04 LTS를 로컬로 사용하는 chirpy 테마 Github 블로그 만들기 (배포용)
 
 <p align="right"> with Chat GPT for 어설픈 초보 feat. vscode by folk </p>
