@@ -46,7 +46,8 @@ vscode로 진입하여 다음 작업 진행하기.
 
 ubuntu@ip-XXX-XX-X-XXX:~$ 이런 프롬프트를 확인하시면 됩니다.
 
-#### sudo apt update
+#### <span style="color:blue">
+```sudo apt update</span>
 
 #### sudo passwd root
 
@@ -382,5 +383,5 @@ git add .
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NzM2OTUyMl19
+eyJoaXN0b3J5IjpbMTA4NjI0OTA4Ml19
 -->
