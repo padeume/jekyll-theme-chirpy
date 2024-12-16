@@ -1,7 +1,8 @@
 ---
 title: "ubuntu 로컬 기반의 chirpy 테마 Github 블로그 만들기"
 date: 2024-12-17 02:03:00 +0900
----# ubuntu 24.04 LTS를 로컬로 사용하는 chirpy 테마 Github 블로그 만들기 (배포용)
+---
+# ubuntu 24.04 LTS를 로컬로 사용하는 chirpy 테마 Github 블로그 만들기 (배포용)
 
 <p align="right"> with Chat GPT for 어설픈 초보 feat. vscode by folk </p>
 
@@ -48,7 +49,7 @@ ubuntu@ip-XXX-XX-X-XXX:~$ 이런 프롬프트를 확인하시면 됩니다.
 
 #### <span style="color:blue">sudo apt update</span>
 
-#### <span style="color:blue">## ==sudo passwd root</span>
+#### <span style="color:blue">sudo passwd root</span>
 
   
   
@@ -64,7 +65,7 @@ ubuntu@ip-XXX-XX-X-XXX:~$ 이런 프롬프트를 확인하시면 됩니다.
 
 # 2. chirpy 초기화를 위한 npm 설치
 
-##sudo apt update && sudo apt upgrade -y==
+#### <span style="color:blue">sudo apt update && sudo apt upgrade -y</span>
 
 ----------
 
@@ -78,23 +79,23 @@ ubuntu@ip-XXX-XX-X-XXX:~$ 이런 프롬프트를 확인하시면 됩니다.
 
   
 
-#### ==curl -fsSL http<hi>s://deb.nodesource.com/setup_18.x | sudo -E bash -==
+#### <span style="color:blue">curl -fsSL http<hi>s://deb.nodesource.com/setup_18.x | sudo -E bash -</span>
 
-#### ==sudo apt install -y nodejs==
+#### <span style="color:blue">sudo apt install -y nodejs<span>
 
   
 
 설치 확인
 
-#### ==node -v==
+#### <span style="color:blue">node -v</span>
 
-#### ==npm -v==
+#### <span style="color:blue">npm -v</span>
 
   
 
 최신버전 확인
 
-#### ==sudo npm install -g npm@latest==
+#### <span style="color:blue">sudo npm install -g npm@latest</span>
 
   
 
@@ -104,15 +105,15 @@ ubuntu@ip-XXX-XX-X-XXX:~$ 이런 프롬프트를 확인하시면 됩니다.
 
 Git 사용자 정보를 설정. 아이디와 이메일은 예시이니, 각자 변경해서 사용하시기 바랍니다.
 
-#### ==git config --global user<hi>.name "codepoemkr"==
+#### <span style="color:blue">git config --global user<hi>.name "codepoemkr"</span>
 
-#### ==git config --global user.email "codepoemkr<hi>@kmail.kr"==
+#### <span style="color:blue">git config --global user.email "codepoemkr<hi>@kmail.kr"</span>
 
   
 
 # Git 설정 확인
 
-#### ==git config --list==
+#### <span style="color:blue">git config --list</span>
 
   
 
@@ -124,11 +125,11 @@ home 디렉토리에서 작업합니다.
 
 ubuntu@ip-XXX-XX-XX-XXX:/home$ 이런 식으로 나와야 합니다.
 
-#### ==sudo mkdir -p /home/blog==
+#### <span style="color:blue">sudo mkdir -p /home/blog</span>
 
-#### ==sudo chown -R ubuntu:ubuntu /home/blog==
+#### <span style="color:blue">sudo chown -R ubuntu:ubuntu /home/blog</span>
 
-#### ==cd /home/blog==
+#### <span style="color:blue">cd /home/blog</span>
 
 이 때 vscode도 작업 디렉토리를 이동합니다.
 
@@ -179,7 +180,7 @@ ubuntu@ip-XXX-XX-XX-XXX:/home$ 이런 식으로 나와야 합니다.
 
   
 
-#### ==sudo git remote set-url origin http<hi>s://codepoemkr:ghp_XXXXXXXXXXXXXXXXXXXXXXXXX@github.com/codepoemkr/codepoemkr.github.io.git==
+#### <span style="color:blue">sudo git remote set-url origin http<hi>s://codepoemkr:ghp_XXXXXXXXXXXXXXXXXXXXXXXXX@github.com/codepoemkr/codepoemkr.github.io.git</span>
 
   
   
@@ -259,7 +260,7 @@ HTTPS 복사
 
 vscode 터미널에서 ubuntu@ip-XXX-XX-X-XXX:/home/blog$ 상태 확인
 
-#### ==git clone http<hi>s://github.com/codepoemkr/codepoemkr.github.io.git==
+#### <span style="color:blue">git clone http<hi>s://github.com/codepoemkr/codepoemkr.github.io.git</span>
 
   
 
@@ -283,9 +284,9 @@ ubuntu@ip-XXX-XX-X-XXX:/home/blog/codepoemkr.github.io$
 
 ## 7. chirpy 초기화 하기
 
-#### ==cd codepoemkr<hi>.github.io==
+#### <span style="color:blue">cd codepoemkr<hi>.github.io</span>
 
-#### ==tools/init.sh==
+#### <span style="color:blue">tools/init.sh</span>
 
 아주 기가 맥힙니다 ㅋ
 
@@ -297,11 +298,11 @@ ubuntu@ip-XXX-XX-X-XXX:/home/blog/codepoemkr.github.io$
 
 #### 토큰 설정
 
-#### ==sudo git remote set-url origin http<hi>s://codepoemkr:ghp_XXXXXXXXXXXXXXXXXXXXXXX@github.com/codepoemkr/codepoemkr.github.io.git==
+#### <span style="color:blue">sudo git remote set-url origin http<hi>s://codepoemkr:ghp_XXXXXXXXXXXXXXXXXXXXXXX@github.com/codepoemkr/codepoemkr.github.io.git</span>
 
   
 
-#### ==git config pull.rebase false==
+#### <span style="color:blue">git config pull.rebase false</span>
 
 일단 강제 병합 설정정함.
 
@@ -334,11 +335,11 @@ github -> Actions 에서 기분좋은 성공
 
 ## 8. chirpy 클렌징
 
-#### ==cd /home/blog==
+#### <span style="color:blue">cd /home/blog</span>
 
 로컬 초기화
 
-#### ==rm -rf codepoemkr<hi>.github.io==
+#### <span style="color:blue">rm -rf codepoemkr<hi>.github.io</span>
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdX5yd3DaydrK-Ji-500l4R-R9CNOtaOjyV1OXCg9qWZ5emnhC55PfeZpA5h6vibw-1bx31ptbq3AB3PcTgFWTSwudeNbgsY_dNoOUfWoWEkdQ5NGvAxfql1OYbpLHl7CP6tHStrQ?key=Yh1qn3tRuuHwWUleH_6lDD37)
 
@@ -346,15 +347,15 @@ github -> Actions 에서 기분좋은 성공
 
 이러면 이미 초기화된 github 블로그를 불러올 수 있음. (maybe 어디에서나!!!)
 
-#### ==git clone http<hi>s://github.com/codepoemkr/codepoemkr.github.io.git==
+#### <span style="color:blue">git clone http<hi>s://github.com/codepoemkr/codepoemkr.github.io.git</span>
 
-#### ==cd codepoemkr<hi>.github.io==
+#### <span style="color:blue">cd codepoemkr<hi>.github.io</span>
 
   
 
 토큰 재설정
 
-#### ==sudo git remote set-url origin http<hi>s://codepoemkr:ghp_XXXXXXXXXXXXXXXXXXXXXXXXX@github.com/codepoemkr/codepoemkr.github.io.git==
+#### <span style="color:blue">sudo git remote set-url origin http<hi>s://codepoemkr:ghp_XXXXXXXXXXXXXXXXXXXXXXXXX@github.com/codepoemkr/codepoemkr.github.io.git</span>
 
   
 
